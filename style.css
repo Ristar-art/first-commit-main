@@ -1,0 +1,154 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+/* navbar */
+.navbar{
+    background-color: rgb(221, 218, 218);
+    border: 5px ;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.logo{
+    color: rgb(177, 97, 97);
+    font-size: 150%;
+    background-color: rgb(153, 128, 128);
+    border-radius: 20px 80px;
+    text-shadow: 0 1px black;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li a {
+   box-sizing: border-box;
+   color: rgb(180, 32, 32);
+   text-decoration: none;
+   /* background-color: rgb(153, 128, 128) ; */
+}
+
+.menu li a:hover{
+    box-shadow: 0 0 5px;
+    color: rgb(216, 175, 175);
+    background-color: rgb(102, 85, 85);
+}
+ 
+
+/* video section */
+
+.video-box{
+    background-color:none;
+    height: 80vh;
+    align-content: center;
+    padding: 0px 150px 0px;
+    
+}
+
+video{
+    width: 70vw;
+
+}
+
+
+/* Bio Section */
+
+.bio {
+    display: flex;
+    color: rgb(129, 120, 120);
+    font-size: 35px;
+}
+
+.bio h1 {
+    color:  rgb(102, 85, 85);
+    text-align: center;
+}
+
+.line {
+    border-bottom: 5px solid rgb(180, 32, 32);
+    width: 500px;
+    margin-left: 150px;
+}
+
+img {
+    height: 60vh;
+    border-radius: 150px 150px;
+}
+
+/* footer */
+
+.lining {
+    border-bottom: 1px solid white;
+    width: 800px;
+    margin-left: 170px;
+}
+
+footer {
+    background-color: rgb(221, 218, 218);
+    display: flex;
+    align-items: center;
+    color: rgb(180, 32, 32);
+}
+
+.addrs-socials li {
+    list-style: none;
+    text-align: left;
+    
+}
+
+footer ul li {
+    list-style: none;
+    text-align: center;
+} 
+.copyright {
+    text-align: center;
+    padding-top: 5px;
+    background-color:  rgb(102, 85, 85);
+    /* color: ; */
+}
+
+/* Contact Me Page */
+
+/* Contact Me Page */
+
+.contactus-page {
+    padding: 20px;
+    color:  rgb(102, 85, 85);
+}
+
+.addrs-socials {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(180, 32, 32);
+}
+
+.links a {
+    margin-bottom: 20px;
+    margin-left: 150px;
+
+}
+
+.embedded-map {
+    margin-bottom: 20px;
+}
+
+.embedded-map iframe {
+    width: 100%;
+}
+
+/* About Me Page */
+
+.aboutme-page {
+    text-align: center;
+    color:  rgb(102, 85, 85);
+}
